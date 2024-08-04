@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --search-border: #bbb;
+  --search-focus-border: #3a71ca;
+}
+
+.container {
+  padding: 2em;
+  width: 80%;
+  margin: auto;
+}
+.hide {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+
+.search-bar {
+
+}
